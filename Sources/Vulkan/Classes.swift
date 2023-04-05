@@ -49,7 +49,7 @@ public class Entry {
 }
 
 public class Instance: _HandleContainer {
-    let handle: VkInstance?
+    public let handle: VkInstance?
     public let entry: Entry
     let dispatchTable: InstanceDispatchTable
 
