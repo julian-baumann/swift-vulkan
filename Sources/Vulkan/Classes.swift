@@ -131,7 +131,7 @@ public class Instance: _HandleContainer {
 }
 
 public class PhysicalDevice: _HandleContainer {
-    let handle: VkPhysicalDevice?
+    public let handle: VkPhysicalDevice?
     public let instance: Instance
 
     public init(handle: VkPhysicalDevice!, instance: Instance) {
